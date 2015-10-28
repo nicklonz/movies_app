@@ -1,0 +1,10 @@
+<h1>Welcome to My Movie Collection!</h1>
+
+<% @movies.each do |movie| %>
+
+  <%= movie.title %>
+  <%= movie.description %>
+  <%= movie.year_released %>
+
+<% end %>
+
